@@ -60,7 +60,7 @@ def load_lottieurl(url: str):
         if r.status_code != 200:
             return None
         return r.json()
-st.write("<h1 style='text-align: center; font-size: 4em; font-family:Times New Roman; color: #f7f7f7;'>MOVIEVERSE</h1>", unsafe_allow_html=True)
+st.write("<h1 style='text-align: center; font-size: 4em; font-family:Times New Roman; color: #000000;'>MOVIEVERSE</h1>", unsafe_allow_html=True)
 
 lottie_url_hello = "https://assets6.lottiefiles.com/packages/lf20_CTaizi.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
